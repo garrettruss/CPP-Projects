@@ -13,3 +13,11 @@ int main()
 
     std::cout << "My name is Riley! I am " << human_years << " years old in human years.";
 }
+
+/* Compile and execute your program using the terminal.
+$ g++ temperature.cpp
+$ ./a.out
+or 
+$ g++ temperature.cpp -o temperature
+$ ./temperature
+*/
