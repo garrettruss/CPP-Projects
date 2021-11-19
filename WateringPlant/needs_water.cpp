@@ -1,20 +1,29 @@
 #include <iostream>
-#include <vector>
 
-// Define first_three_multiples() here:
-std::vector<int> first_three_multiples(int num)
+// Define needs_water() here:
+std::string needs_water(int days, bool is_succulent)
 {
 
-    std::vector<int> multiples{num, num * 2, num * 3};
-
-    return multiples;
+    if (days > 3 && is_succulent == false)
+    {
+        return "Time to water the plant.";
+    }
+    else if (days < 13 && is_succulent)
+    {
+        return "Don't water the plant!";
+    }
+    else if (days >= 13 && is_succulent)
+    {
+        return "Go ahead and give the plant a little water.";
+    }
+    else
+    {
+        return "Don't water the plant!";
+    }
 }
 
 int main()
 {
 
-    for (int element : first_three_multiples(8))
-    {
-        std::cout << element << "\n";
-    }
+    std::cout << needs_water(10, false) << "\n";
 }
