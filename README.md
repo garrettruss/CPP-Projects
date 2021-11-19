@@ -1,1 +1,1 @@
-# Collection of mini C++ß projects based off of Codecademy course
+# Collection of mini C++ projects based off of Codecademy course
