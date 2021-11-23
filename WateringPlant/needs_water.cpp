@@ -18,7 +18,7 @@ std::string needs_water(int days, bool is_succulent)
     }
     else
     {
-        return "Don't water the plant!";
+        return "Do not water the plant!";
     }
 }
 
