@@ -10,7 +10,7 @@ int main()
     stringstream ss;
 
     // a variable named str, that is of string data type
-    string str = "8";
+    string str = "9";
 
     // a variable named num, that is of int data type
     int num;
