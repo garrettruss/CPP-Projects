@@ -47,5 +47,5 @@ int main()
         weight = weight * 1.23;
     }
 
-    std::cout << "\nYour weight: " << weight << "\n";
+    std::cout << "\nYour weight on: " << weight << "\n";
 }
