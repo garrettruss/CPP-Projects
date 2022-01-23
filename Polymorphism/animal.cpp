@@ -14,7 +14,7 @@ class Fish : public Animal
 public:
     void action()
     {
-        std::cout << "Fishes swim.\n";
+        std::cout << "Fish swim.\n";
     }
 };
 
